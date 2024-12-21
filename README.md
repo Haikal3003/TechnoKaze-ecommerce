@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+# TechnoKaze E-commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TechnoKaze is a personal e-commerce project offering a wide range of laptops and smartphones designed to meet the needs of professionals and tech enthusiasts. With fast delivery and excellent customer support, TechnoKaze is committed to providing top-quality products and services.
 
-Currently, two official plugins are available:
+## Features
+- **Product Catalog**: Browse a variety of laptops and smartphones.
+- **Product Details**: View detailed information about each product.
+- **Shopping Cart**: Add products to your cart and manage them before checkout.
+- **Customer Support**: Get in touch with us for inquiries and support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: Vite.js, React.js, Typescript
+- **Styling**: Tailwind CSS
+- **API**: RapidAPI for product data (https://rapidapi.com/vinitpatidar780/api/ecommerce-api3/playground/apiendpoint_560fdab2-b18d-4639-9586-e40275288d20)
 
-## Expanding the ESLint configuration
+## Contact
+If you have any questions or support, please feel free to contact me at [mfikryhaikal1@gmail.com](mailto:mfikryhaikal1@gmail.com).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
+Thank you for exploring TechnoKaze! This project is a showcase of my skills and passion for web development.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
