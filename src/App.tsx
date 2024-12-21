@@ -4,6 +4,7 @@ import { setLaptops, setMobiles } from './features/products/productsSlice';
 import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 export default function App() {
   const dispatch = useDispatch();
@@ -51,6 +52,7 @@ export default function App() {
       <div className="px-20">
         <Navbar />
         <Outlet />
+        <Footer />
       </div>
     </main>
   );

@@ -5,7 +5,7 @@ import { BsBag } from 'react-icons/bs';
 export default function Navbar() {
   return (
     <nav className="relative py-6 flex justify-between items-center border-b border-b-slate-200 z-50">
-      <div className="w-56 ">
+      <div className="w-56">
         <img src="../src/assets/TechnoKaze-logo.png" className="w-full h-full object-cover" />
       </div>
       <ul className="flex space-x-6">
@@ -13,13 +13,13 @@ export default function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">Products</Link>
+          <Link to="/products">Products</Link>
         </li>
         <li>
-          <Link to="/">About</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 

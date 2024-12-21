@@ -10,7 +10,7 @@ export default function LatestProductsSection() {
   return (
     <section className="relative w-full h-full py-6">
       <div className="text-center">
-        <h1 className=" uppercase text-2xl font-light">- Latest Products -</h1>
+        <h1 className=" uppercase text-xl font-light">- Latest Products -</h1>
         <p className="font-extralight text-base">Browse our latest collection of laptops and mobiles, designed to help you stay ahead of the curve.</p>
       </div>
 

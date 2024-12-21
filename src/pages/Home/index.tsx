@@ -1,11 +1,15 @@
+import BestSellerProducts from '../../components/Home/BestSellerProducts';
 import HeroSection from '../../components/Home/HeroSection';
-import LatestProductsSection from '../../components/Home/LatestProductsSection';
+import LatestProducts from '../../components/Home/LatestProducts';
+import PoliciesSection from '../../components/Home/PoliciesSection';
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <LatestProductsSection />
+      <LatestProducts />
+      <BestSellerProducts />
+      <PoliciesSection />
     </>
   );
 }
